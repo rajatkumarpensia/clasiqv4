@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasiq : Auction Detail Page</title>
+    <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
+    <!-- clasiq style sheets -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/developer.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="header py-4 bg-gray">
+        <div class="container position-relative">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Clasiq" class="img-fluid logo-image"></a>
+                </div>
+                <div class="menu">
+                    <span class="close-menu only-mobile"></span>
+                    <ul class="menu-wrapper list-unstyled mb-0">
+                        <li class="menu-item level-1 position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">View Live Auction</a>
+                            <ul class="level-2 list-unstyled position-absolute">
+                                <li class="d-block"><a href="live-auctions.html" class="menu-link text-uppercase">Live auctions</a></li>
+                                <li class="d-block"><a href="completed-auctions.html" class="menu-link text-uppercase">Completed auctions</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">How it work</a></li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Value your car</a></li>
+                        <li class="menu-item position-relative"><a href="clasiq-content.html" class="menu-link text-uppercase">Clasiq content</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="login_popup">Login</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="signup_popup">Sign Up</a></li>
+                    </ul> 
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <div class="search-wrapper mr-4">
+                        <div class="search position-relative form-control">
+                            <i class="fas fa-search"></i>
+                            <input type="text" class="header-search" placeholder="Search for ...">
+                        </div>
+                    </div>
+                    <div class="login-signup">
+                        <a href="javascript:void(0);" class="login-signup-btn text-uppercase"><span class="open-popup-modal" data-target="signup_popup">Sign up</span> / <span class="open-popup-modal" data-target="login_popup">Log in</span></a>
+                    </div>
+                    <div class="toggle-menu ml-4">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="contact-clasiq bg-theme text-center text-black p-2">
+        For help call clasiq at <a href="tel:8884691335" class="text-black">(888) 469 1335</a>
+    </div>
+    <!-- header end -->
+    <!-- auction car section start  -->
+    <section class="auction-car-section">
+        <div class="container">
+            <div class="auction-car-header py-4">
+                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                    <h2 class="heading-1">1965 Pontiac Grand Prix</h2>
+                    <div class="social-share">
+                        <div class="d-flex align-items-center">
+                            <span class="text-black mr-3">Share</span>
+                            <ul class="list-unstyled mb-0 d-flex">
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2 "><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="far fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="auction-car-image">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="auction-car-images">
+                            <img src="images/auction-car-2.png" alt="auction-car" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-none">
+                        <div class="theme-color-box report-card position-relative">
+                            <div class="report-card-upper">
+                                <img class="report-icon my-3" src="images/c-icon-report.png" alt="report">
+                                <h4 class="heading-3 my-3">Independent Pre-purchase inspection report</h4>
+                                <a href="javascript:void(0);" class=" mt-3 btn theme-btn text-uppercase text-center">View</a>
+                            </div>
+                            <div class="report-card-lowwer">
+                                <h4 class="heading-3 my-3">Buyers Premium</h4>
+                                <p>4.5%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <div class="auction-car-bid-details ">
+
+               
+           
+            <div class="container py-4">
+                
+                <div class="bid-details-wrap d-flex flex-wrap align-items-center">
+                    <div class="current-bid"><strong>Current bid</strong> <span class="bid-amount text-theme">$31,500 <small class="bid-by">By Chris</small></span></div>
+                    <div class="bid-options">
+                        <a href="javascript:void(0);" class="btn theme-btn text-uppercase mx-2 place-bid open-popup-modal" data-target="bid_popup">Place Bid</a>
+                        <a href="javascript:void(0);" class="btn black-btn text-uppercase mx-2 absentee-bid open-popup-modal" data-target="bid_popup">absentee Bid</a>
+                    </div>
+                    <div class="bid-time-left"><strong>Ending</strong><span class="ml-2">5 days 11 hours</span></div>
+                    <div class="view-comments">View Comments (27)</div>
+                    <div class="how-work-btn"><a href="javascript:void(0);" class="btn black-btn text-uppercase">How It works</a></div>
+                </div>
+
+                <span class="time-slider" id="time_slider"></span>
+            </div>
+
+    </div>
+    <!-- auction car section end  -->
+    <!-- gallery start -->
+    <section class="auction-car-gallery my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between section-header align-items-center flex-wrap">
+                <h2 class="heading-1">Gallery</h2> 
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="exterior" data-bs-toggle="pill" data-bs-target="#exterior_content" type="button" role="tab" aria-controls="exterior" aria-selected="true">Exterior</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="interior" data-bs-toggle="pill" data-bs-target="#interior_content" type="button" role="tab" aria-controls="interior" aria-selected="false">Interior</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content mt-3" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="exterior_content" role="tabpanel" aria-labelledby="exterior_content">
+                    <div class="gallery"  uk-grid uk-lightbox="animation: slide">
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-1.png" data-caption="Caption 1">
+                                    <img class="img-fluid" src="images/car-1.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-2.png" data-caption="Caption 2">
+                                    <img class="img-fluid" src="images/car-2.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-3.png" data-caption="Caption 3">
+                                    <img class="img-fluid" src="images/car-3.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-4.png" data-caption="Caption 4">
+                                    <img class="img-fluid" src="images/car-4.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 5">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a href="images/car-6.png"  data-caption="Caption 6">
+                                    <img class="img-fluid" src="images/car-6.png" alt="car">
+                                </a>
+                                <span class="overlay overlay-text view-all-gallery"><span class="">view all images</span></span>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/auction-car-1.png" data-caption="Caption 7">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 8">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 9">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 10">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                                <span class="overlay overlay-text hide-all-gallery"><span class="">Hide images</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="interior_content" role="tabpanel" aria-labelledby="interior_content">
+                    <div class="gallery"  uk-grid uk-lightbox="animation: slide">
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-1.png" data-caption="Caption 1">
+                                    <img class="img-fluid" src="images/car-1.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-2.png" data-caption="Caption 2">
+                                    <img class="img-fluid" src="images/car-2.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-3.png" data-caption="Caption 3">
+                                    <img class="img-fluid" src="images/car-3.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-4.png" data-caption="Caption 4">
+                                    <img class="img-fluid" src="images/car-4.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 5">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap">
+                            <div class="gallery-img position-relative">
+                                <a href="images/car-6.png"  data-caption="Caption 6">
+                                    <img class="img-fluid" src="images/car-6.png" alt="car">
+                                </a>
+                                <span class="overlay overlay-text view-all-gallery"><span class="">view all images</span></span>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/auction-car-1.png" data-caption="Caption 7">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 8">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 9">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-img-wrap d-none">
+                            <div class="gallery-img position-relative">
+                                <a class=" uk-inline" href="images/car-5.png" data-caption="Caption 10">
+                                    <img class="img-fluid" src="images/car-5.png" alt="car">
+                                </a>
+                                <span class="overlay overlay-text hide-all-gallery"><span class="">Hide images</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery end -->
+    <!-- Vehicle Details start -->
+    <section class="vehicle-details-section py-5 banner-section right-banner banner-bg-right-gray">
+        <div class="container">
+            <h2 class="heading-1">Vehicle Details</h2>
+            <div class="vehicle-details mt-5">
+                <table class="table table-bordered">
+                    <tr>
+                        <td class="font-bold bg-gray">Engine</td>
+                        <td>455 T/A motor</td>
+                        <td class="font-bold bg-gray">Transmission</td>
+                        <td>T375 w/ a shift kit</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold bg-gray">Exterior Color</td>
+                        <td>49,665</td>
+                        <td class="font-bold bg-gray">VIN</td>
+                        <td>266575C109146</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold bg-gray">Exterior Color</td>
+                        <td>Pearlescent Peach</td>
+                        <td class="font-bold bg-gray">Interior Color</td>
+                        <td>Maroon</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold bg-gray">Location</td>
+                        <td>Anthem, AZ</td>
+                        <td class="font-bold bg-gray">Title Status</td>
+                        <td>Clean</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold bg-gray">Seller</td>
+                        <td>PaulBurkey</td>
+                        <td class="font-bold bg-gray">Seller Type</td>
+                        <td>Private Party</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Vehicle Details end -->
+    <!-- vehicle history start -->
+    <section class="vehicle-history-section bg-gray">
+        <div class="py-5 banner-section right-banner" style="background-image: url(images/history-1.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 pl-5 ninja-order-2">
+                        <div class="banner-text pr-5 py-200">
+                            <h2 class="heading-1 mb-3">Vehicle History</h2>
+                            <p>This 1965 Pontiac Grand Prix is up for auction by its current owner in Arizona. Having been in Arizona for over 30 years and even winning a car show it is ready to be put into someone else’s care. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative ninja-order-1">
+                        <img src="images/mob-history-1.png" alt="banner-image" class="img-fluid mobile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 banner-section left-banner" style="background-image: url(images/history-2.png);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 position-relative">
+                        <img src="images/mob-history-2.png" alt="banner-image" class="img-fluid mobile-image">
+                    </div>
+                    <div class="col-lg-6 pl-5">
+                        <div class="banner-text pl-5 py-100">
+                            <h2 class="heading-1 mb-3">01</h2>
+                            <p>The Pearlescent Peach shining exterior has had all of its badges and branding removed, door handles replaced with an electrical opening system, new chrome exhaust tips, and custom wheels. A set of OG chrome rims with baby moon mounted on white wall tires comes with the car. Other than that it is completely original, and will come with the factory fender skirts, but they are not attached. </p>
+                            <h2 class="heading-1 mb-3">02</h2>
+                            <p>Climb inside the spacious interior of this car, with maroon upholstery and leather lining. All of the gauges are in working order and the radio has been replaced for a newer bluetooth stereo. All electric parts of the interior are in working order and have been checked recently. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 banner-section right-banner" style="background-image: url(images/history-3.png);">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-6 pl-5 ninja-order-2">
+                        <div class="banner-text pr-5 py-100">
+                            <h2 class="heading-1 mb-3">03</h2>
+                            <p>A 455 cubic inch V8 sits in the front of this car making enough horsepower to have a good time. Mostly stock, the carburetor has been redone as well as other pieces have been swapped for chrome. </p>
+                            <h2 class="heading-1 mb-3">04</h2>
+                            <p>An independent pre-purchase inspection found this car to be in excellent condition. Despite taking a few minutes to warm up once started, the car runs well with almost everything in working order. The car has a clean title under the owner’s name and is currently registered. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative ninja-order-1">
+                        <img src="images/mob-history-3.png" alt="banner-image" class="img-fluid mobile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- vehicle history end -->
+    <!-- videos start -->
+    <section class="videos-section my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h2 class="heading-1">VIDEOS</h2>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="video-card position-relative">
+                        <a href="javascript:void(0);">
+                            <img src="images/video-1.png" alt="videos" class="img-fluid w-100">
+                            <span class="overlay text-overlay text-center text-white">
+                                <span class="video-text">
+                                    <i class="far fa-play-circle"></i>
+                                    <p>1965 Pontiac Grand Prix Summary</p>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="video-card position-relative">
+                        <a href="javascript:void(0);">
+                            <img src="images/video-2.png" alt="videos" class="img-fluid w-100">
+                            <span class="overlay text-overlay text-center text-white">
+                                <span class="video-text">
+                                    <i class="far fa-play-circle"></i>
+                                    <p>1965 Pontiac Grand Prix Summary</p>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- videos end -->
+    <!-- bid summary start-->
+    <section class="bid-summary">
+        <div class="container">
+            <div class="auction-car-header py-3">
+                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                    <h2 class="heading-1">1965 Pontiac Grand Prix</h2>
+                    <div class="social-share">
+                        <div class="d-flex align-items-center">
+                            <span class="text-black mr-3">Share</span>
+                            <ul class="list-unstyled mb-0 d-flex">
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2 "><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="javascript:void(0);" class="text-black hover-theme p-2"><i class="far fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bid-summary-box">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="bid-car car-card hover-none">
+                            <div class="car-image-wrap position-relative">
+                                <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                <span class="reserve-option position-absolute">Reserve</span>
+                                <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="current-bid my-3">
+                            <div>
+                                <h5 class="heading-3">Current Bid</h6>
+                                <p class="current-bid-amount font-bold text-theme mt-3 mb-1">$34,000</p>
+                                <p class="current-bidder">By Jdaniels123</p>
+                            </div>
+                            <div class="bid-time-left mt-5"><strong>Ending</strong><span class="ml-2">5 days 11 hours</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="bid-options">
+                            <div class="my-3 text-center">
+                                <a href="javascript:void(0);" class="btn theme-btn text-uppercase mx-2 open-popup-modal" data-target="bid_popup">Place Bid</a>
+                            </div>
+                            <div class="my-3 text-center">
+                                <a href="javascript:void(0);" class="btn black-btn text-uppercase mx-2 open-popup-modal" data-target="bid_popup">absentee Bid</a>
+                                <p class="mt-2 what-absentee open-popup-modal" data-target="absentee_popup"><span>i</span>What is Absentee Bid</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bid summary end -->
+    <!-- comments start -->
+    <section class="comments-section my-5">
+        <div class="container">
+            <div class="d-flex justify-content-between section-header align-items-center flex-wrap">
+                <h2 class="heading-1">Comments & Bids</h2> 
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="new_comment" data-bs-toggle="pill" data-bs-target="#new_comment_content" type="button" role="tab" aria-controls="new_comment" aria-selected="true">Newest</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="seller_comment" data-bs-toggle="pill" data-bs-target="#seller_comment_content" type="button" role="tab" aria-controls="seller_comment" aria-selected="false">Seller Comments</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="bid_history" data-bs-toggle="pill" data-bs-target="#bid_history_content" type="button" role="tab" aria-controls="bid_history" aria-selected="false">Bid History</button>
+                      </li>
+                </ul>
+            </div>
+            <div class="mt-4">
+                <form action="">
+                    <div class="form-floating outline-lable mb-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="add a comment">
+                        <label for="floatingInput">Add a comment</label>
+                    </div>
+                    <div class="text-end mt-3">
+                        <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Submit</a>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-content mt-4" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="new_comment_content" role="tabpanel" aria-labelledby="new_comment_content">
+                    <div class="comment-wrapper-block">
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span> <span class="user-type bidder ml-4">Bidder</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p>
+                                        Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                    </p>
+                                    <p>
+                                        Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                    </p>
+                                </div>
+                                <div class="comment-footer">
+                                    <div class="d-flex">
+                                        <span class="reply-comment mr-2 text-theme open-popup-modal" data-target="reply_popup">Reply</span>
+                                        <span class="text-gray">Flag as inappropriate</span>
+                                    </div>
+                                </div>
+                                <div class="comment-reply-wrap d-flex mt-3">
+                                    <div class="comment-block-left">
+                                        <div class="comment-user-img">
+                                            <img src="images/car-1.png" alt="user" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="comment-block-right">
+                                        <div class="comment-header">
+                                            <span class="user-name">Jdaniels123</span> <span class="user-type bidder ml-4">Bidder</span>
+                                        </div>
+                                        <div class="comment-body my-3">
+                                            <p>
+                                                Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                            </p>
+                                        </div>
+                                        <div class="comment-footer">
+                                            <div class="d-flex">
+                                                <span class="reply-comment mr-2 text-theme open-popup-modal" data-target="reply_popup">Reply</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p class="bid-amount">$31,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p>
+                                        Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                    </p>
+                                    <p>
+                                        Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                    </p>
+                                </div>
+                                <div class="comment-footer">
+                                    <div class="d-flex">
+                                        <span class="reply-comment mr-2 text-theme open-popup-modal" data-target="reply_popup">Reply</span>
+                                        <span class="text-gray">Flag as inappropriate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-read-more">
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="seller_comment_content" role="tabpanel" aria-labelledby="seller_comment_content">
+                    <div class="comment-wrapper-block">
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span> <span class="user-type bidder ml-4">Bidder</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p>
+                                        Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                    </p>
+                                    <p>
+                                        Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                    </p>
+                                </div>
+                                <div class="comment-footer">
+                                    <div class="d-flex">
+                                        <span class="reply-comment mr-2 text-theme open-popup-modal" data-target="reply_popup">Reply</span>
+                                        <span class="text-gray">Flag as inappropriate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p class="bid-amount">$31,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p>
+                                        Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                    </p>
+                                    <p>
+                                        Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                    </p>
+                                </div>
+                                <div class="comment-footer">
+                                    <div class="d-flex">
+                                        <span class="reply-comment mr-2 text-theme open-popup-modal" data-target="reply_popup">Reply</span>
+                                        <span class="text-gray">Flag as inappropriate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-read-more">
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="bid_history_content" role="tabpanel" aria-labelledby="bid_history_content">
+                    <div class="comment-wrapper-block">
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span> <span class="user-type bidder ml-4">Bidder</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p>
+                                        Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                    </p>
+                                    <p>
+                                        Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                    </p>
+                                </div>
+                                <div class="comment-footer">
+                                    <div class="d-flex">
+                                        <span class="reply-comment mr-2 text-theme">Reply</span>
+                                        <span class="text-gray">Flag as inappropriate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p class="bid-amount">$31,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment mb-5">
+                            <div class="comment-block-left">
+                                <div class="comment-user-img">
+                                    <img src="images/car-1.png" alt="user" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="comment-block-right">
+                                <div class="comment-header">
+                                    <span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                                </div>
+                                <div class="comment-body my-3">
+                                    <p>
+                                        Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                    </p>
+                                    <p>
+                                        Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                    </p>
+                                </div>
+                                <div class="comment-footer">
+                                    <div class="d-flex">
+                                        <span class="reply-comment mr-2 text-theme">Reply</span>
+                                        <span class="text-gray">Flag as inappropriate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-read-more">
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- comments end -->
+    <!-- question answer start -->
+    <section class="question-answer-seection py-5  banner-section right-banner banner-bg-right-gray">
+        <div class="container">
+            <div class="d-flex justify-content-between section-header align-items-center flex-wrap">
+                <h2 class="heading-1">Seller Question & Answers</h2> 
+                <a href="javascript:void(0);" class="btn black-btn text-uppercase">ask a question</a>
+            </div>
+            <div class="mt-5">
+                <div class="que-ans-slider">
+                    <div class="que-ans-block">
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="que-ans-block">
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="que-ans-block">
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="que-ans-block">
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="que-ans-block">
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="queans">
+                            <div class="comment-header">
+                                <span class="user-img"><img src="images/favicon.png" alt=""></span><span class="user-name">Jdaniels123</span> <span class="user-type seller ml-4"> <i class="fas fa-check-circle mr-2"></i>Seller</span>
+                            </div>
+                            <div class="comment-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- question answer end -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between footer-upper py-5">
+                <div class="logo align-self-center">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="clasiq" class="img-fluid"> 
+                    </a>
+                </div>
+                <div class="footer-menu align-self-center">
+                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                        <li><a href="index.html" class="text-black p-2 hover-theme">Home</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">About Us</a></li>
+                        <li><a href="contact-us.html" class="text-black p-2 hover-theme">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Terms & Condations</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Privacy Policy</a></li>
+                        <li><a href="faq.html" class="text-black p-2 hover-theme">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact align-self-center">
+                    <a href="" class="text-black hover-theme">(888) 469-1435</a>
+                </div>
+            </div>
+            <div class="footer-down d-flex flex-wrap justify-content-between mb-5">
+                <div class="align-self-center">© CLASIQ 2021</div>
+                <div class="align-self-center text-center">
+                    <h4 class="heading-3 text-uppercase">Join the community</h4>
+                    <a href="javascript:void(0);" class="text-black mt-1 hover-theme">Facebook</a>
+                </div>
+                <div class="align-self-center">MADE BY ORIGINAL PEOPLE </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+   <!-- login-modal -->
+    <div class="popup-modal" id="login_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="heading-1 text-uppercase text-white">
+                            Create a new account
+                        </h2>
+                        <a href="javascript:void(0);" class="btn white-btn text-uppercase mt-3 open-popup-modal" data-target="signup_popup">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form-wrap bg-white">
+                        <form action="">
+                            <h4 class="heading-3 mb-5">Sign In</h4>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="mb-4">
+                                <a href="javascript:void(0);" class="text-black font-bold forgot-password hover-theme">Forgot our password?</a>
+                            </div>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Submit</a>
+                            <span class="only-mobile mt-3 open-popup-modal" data-target="signup_popup">Create a new account. <span class="text-theme">SIGN UP</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signup modal -->
+    <div class="popup-modal" id="signup_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="heading-1 text-uppercase text-white">
+                            Already have an account?
+                        </h2>
+                        <a href="javascript:void(0);" class="btn white-btn text-uppercase mt-3 open-popup-modal" data-target="login_popup">Sign In</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form-wrap bg-white">
+                        <form action="">
+                            <h4 class="heading-3 mb-5">Sign Up</h4>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+                                <label for="floatingInput">Username</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Confirm Password</label>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Policy">
+                                    <label class="form-check-label" for="Policy">
+                                        I accept the Terms & Conditions and Privacy Policy.
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Subscribe">
+                                    <label class="form-check-label" for="Subscribe">
+                                        Subscribe to the Clasiq weekly email
+                                    </label>
+                                  </div>
+                            </div>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Sign Up</a>
+                            <span class="only-mobile mt-3 open-popup-modal" data-target="login_popup">Already have a account? <span class="text-theme">SIGN IN</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bid popup -->
+    <div class="popup-modal" id="bid_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="small-modal-content">
+                   <div class="popup-header p-3 pb-0">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="place-bid" data-bs-toggle="pill" data-bs-target="#place_bid_content" type="button" role="tab" aria-controls="place-bid" aria-selected="true">Place Bid</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="absentee" data-bs-toggle="pill" data-bs-target="#absentee_bid_content" type="button" role="tab" aria-controls="absentee" aria-selected="false">Absentee Bid</button>
+                        </li>
+                    </ul>
+                   </div>
+                   <div class="popup-body px-4 py-3">
+                       <div class="tab-content" id="pills-tabContent">
+                           <div class="tab-pane fade show active" id="place_bid_content" role="tabpanel" aria-labelledby="place_bid_content">
+                            <form action="">
+                                <div class="form-floating outline-lable mb-4">
+                                    <input type="number" class="form-control" id="floatingInput" placeholder="place bid">
+                                    <label for="floatingInput">Place Bid</label>
+                                </div>
+                                <p class="text-center my-3">You are about to bid $32,000</p>
+                                <div class="text-center mt-3">
+                                    <a href="javascript:void(0);" class="btn theme-btn text-uppercase">pace bid</a>
+                                </div>
+                            </form>
+                           </div>
+                           <div class="tab-pane fade show" id="absentee_bid_content" role="tabpanel" aria-labelledby="absentee_bid_content">
+                            <form action="">
+                                <div class="form-floating outline-lable mb-4">
+                                    <input type="number" class="form-control" id="floatingInput" placeholder="place bid">
+                                    <label for="floatingInput">Absentee Bid</label>
+                                </div>
+                                <p class="text-center my-3">We will place this bid on your behalf, 
+                                    if the auction reaches $30,000</p>
+                                <div class="text-center mt-3">
+                                    <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Place bid</a>
+                                </div>
+                            </form>
+                           </div>
+                       </div>
+                       
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- absentee details popup -->
+    <div class="popup-modal" id="absentee_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="small-modal-content">
+                <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                   <div class="popup-header p-3 text-center">
+                    <h2 class="heading-2">Absentee Bid</h2>
+                   </div>
+                   <div class="popup-body px-4 py-3 text-center">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. Nam placerat ultrices ex, a rhoncus neque rutrum nec. Vivamus finibus ante varius, varius sapien vitae, ultricies justo. 
+                    </p><p>
+                        Donec convallis ac massa sit amet 
+                        commodo. Vivamus fermentum nisl porta, pulvinar metus nec, feugiat orci. Praesent convallis est vitae felis finibus rutrum. Aenean nec orci in sapien ultricies gravida. Suspendisse ornare eu ligula eget hendrerit.
+                        </p>
+                       
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- Comment Reply popup -->
+    <div class="popup-modal" id="reply_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="small-modal-content">
+                <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                   <div class="popup-header p-3 text-center">
+                    <h4 class="heading-2">Reply to <span class="text-theme">Jdaniels123</span></h4>
+                   </div>
+                   <div class="popup-body px-4 py-3">
+                    <div class="form-floating outline-lable mb-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Reply">
+                        <label for="floatingInput">Reply</label>
+                    </div>
+                     <div class="text-end">
+                         <a href="" class="btn theme-btn">Submit</a>
+                     </div>  
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- clasiq scripts -->
+    <script src="js/jquery-3.5.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/developer.js"></script>
+</body>
+</html>

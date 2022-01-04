@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clasiq : User page</title>
+        <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
+        <!-- clasiq style sheets -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/developer.css">
+    </head>
+<body>
+    <!-- header start -->
+    <header class="header py-4 bg-gray">
+        <div class="container position-relative">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Clasiq" class="img-fluid logo-image"></a>
+                </div>
+                <div class="menu">
+                    <span class="close-menu only-mobile"></span>
+                    <ul class="menu-wrapper list-unstyled mb-0">
+                        <li class="menu-item level-1 position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">View Live Auction</a>
+                            <ul class="level-2 list-unstyled position-absolute">
+                                <li class="d-block"><a href="live-auctions.html" class="menu-link text-uppercase">Live auctions</a></li>
+                                <li class="d-block"><a href="completed-auctions.html" class="menu-link text-uppercase">Completed auctions</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">How it work</a></li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Value your car</a></li>
+                        <li class="menu-item position-relative"><a href="clasiq-content.html" class="menu-link text-uppercase">Clasiq content</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="login_popup">Login</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="signup_popup">Sign Up</a></li>
+                    </ul> 
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <div class="search-wrapper mr-4">
+                        <div class="search position-relative form-control">
+                            <i class="fas fa-search"></i>
+                            <div class="mobile-search-input">
+                                <input type="text" class="header-search" placeholder="Search for ...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login-signup">
+                        <div class="before-login d-none">
+                            <a href="javascript:void(0);" class="login-signup-btn text-uppercase"><span class="open-popup-modal" data-target="signup_popup">Sign up</span> / <span class="open-popup-modal" data-target="login_popup">Log in</span></a>
+                        </div>
+                        <div class="after-login">
+                            <div class="dropdown d-inline-block notification">
+                                <button class="btn bg-gray dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="fas fa-bell"></i>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                  <li class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                  <li class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                </ul>
+                              </div>
+                            <div class="dropdown d-inline-block user-info">
+                                <button class="btn bg-gray dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <span class="user-icon"><i ></i></span><span class="username">User Name</span>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                  <li><a class="dropdown-item" href="#">My Account</a></li>
+                                  <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                                  <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="toggle-menu ml-4">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <div class="user-profile-section bg-gray">
+        <div class="container py-4">
+            <div class="d-flex flex-wrap">
+                <div class="profile-options">
+                    <span class="toggle-sidebar">&#10132;</span>
+                    <div class="sidebar">
+                        <h3 class="main-heading text-black font-bold"><a href="javascript:void(0);" class="text-black option-link hover-theme">Profile</a></h3>
+                        <div class="sidebar-options">
+                          <div class="option-section mt-4">
+                            <h3 class="option-heading text-black font-bold">My Listing</h3>
+                            <ul class="option-list list-unstyled">
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Live Auctions</a>
+                              </li>
+                            </ul>                         
+                          </div>
+                          <div class="option-section mt-4">
+                            <h3 class="option-heading text-black font-bold">Seller</h3>
+                            <ul class="option-list list-unstyled">
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Submit your car</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Upload photos</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Schedule photoshoot/inspection</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Reserve and listing approved</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Auction Live</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Payment & Vehicle Handover</a>
+                              </li>
+                            </ul>                         
+                          </div>
+                          <div class="option-section mt-4">
+                            <h3 class="option-heading text-black font-bold">Buyer</h3>
+                            <ul class="option-list list-unstyled">
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Won Listings</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Comments Made</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Bid History</a>
+                              </li>
+                            </ul>                         
+                          </div>
+                          <div class="option-section mt-4">
+                            <h3 class="option-heading text-black font-bold">Settings</h3>
+                            <ul class="option-list list-unstyled">
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Change Pasword</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Credit card Details</a>
+                              </li>
+                              <li class="option-li">
+                                <a class="option-link text-black hover-theme px-3 py-2" href="javascript:void(0);">Email notifications</a>
+                              </li>
+                            </ul>                         
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-option-detail">
+                    <div class="card profile-card p-4 mb-4">
+                        <div class="d-flex user-profile-card flex-wrap align-items-center justify-content-between">
+                            <div class="user-profile-info">
+                                <div class="d-flex flex-wrap">
+                                    <div class="user-profile-img mr-3">
+                                        <img src="images/mob-history-2.png" alt="user image" class="img-fluid">
+                                    </div>
+                                    <div class="user-profile-details">
+                                        <div class="user-type text-uppercase text-black"><img class="img-fluid" src="images/check.png" alt=""> SELLER</div>
+                                        <div class="mt-2">
+                                            <h3 class="user-name font-bold">Jdaniels123</h3>
+                                            <p class="my-2 text-black joined">Joined june 2021</p>
+                                        </div>
+                                        <div class="my-3">
+                                            <a href="javascript:void(0);" class="text-theme edit-bio-btn hover-theme">Edit Bio</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-car-btn">
+                                <a href="javascript:void(0);" class="btn black-btn text-uppercase">List Your Car</a>
+                            </div>
+                        </div>
+                        <div class="edit-bio-form-wrap mt-3 p-3 d-none">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-floating outline-lable mb-4">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="First name">
+                                            <label for="floatingInput">First Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating outline-lable mb-4">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Last name">
+                                            <label for="floatingInput">Last Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-floating outline-lable mb-4">
+                                            <input type="number" class="form-control" id="floatingInput" placeholder="Phone (to contact if you win)">
+                                            <label for="floatingInput">Phone (to contact if you win)</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-floating outline-lable mb-4">
+                                            <textarea class="form-control" name="" id="floatingInput"  rows="4" placeholder="my bio"></textarea>
+                                            <label for="floatingInput">My Bio</label>
+                                        </div>
+                                    </div>
+                                    <div class="text-start mt-3">
+                                        <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Submit</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card pending-auction-card p-4 mb-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="font-bold card-heading text-black text-uppercase mb-5 mt-3">Pending Auction</h3>
+                            </div>
+                            <div class="col-lg-6">
+                                <a href="auction-detail.html" class="car-card mb-4">
+                                    <div class="car-image-wrap position-relative">
+                                        <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                    </div>
+                                    <div class="car-details">
+                                        
+                                        <div class="auction-car-details px-4 pb-4">
+                                            <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                            <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                            <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                        </div>
+                                    </div> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card status-card mb-4 p-4">
+                        <div class="status-update icon-with-text">
+                            <div class="d-flex flex-wrap">
+                                <div class="status-update card-icon mr-3">
+                                    <img src="images/time.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="card-detail-text">
+                                    <h3 class="heading-4 font-bold text-uppercase">status update</h3>
+                                    <h3 class="font-bold mt-3">Clasiq are reviewing</h3>
+                                    <p class="my-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus condimentum ex, nec consectetur quam. Fusce imperdiet sagittis libero ut scelerisque. Donec rhoncus vitae nisi nec fringilla. Nunc ut malesuada mauris, eu volutpat leo. Vestibulum vulputate diam a libero ultrices, pretium sodales tellus vulputate. Pellentesque sollicitudin quam turpis, ut tempor purus consequat vitae. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- message start -->
+<section class="message-section my-5">
+    <div class="container">
+        <div class="d-flex justify-content-between section-header align-items-center flex-wrap">
+            <h2 class="heading-1">MESSAGES</h2> 
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="messages" data-bs-toggle="pill" data-bs-target="#messages_content" type="button" role="tab" aria-controls="messages" aria-selected="true">Messages</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="notification" data-bs-toggle="pill" data-bs-target="#notification_content" type="button" role="tab" aria-controls="notification" aria-selected="false">Notifications</button>
+                </li>
+            </ul>
+        </div>
+        <div class="mt-4">
+            <form action="">
+                <div class="form-floating outline-lable mb-4">
+                    <textarea class="form-control" name="" id="floatingInput"  rows="4" placeholder="Add a comment"></textarea>
+                    <label for="floatingInput">Add a comment</label>
+                </div>
+                <div class="text-start mt-3">
+                    <a href="javascript:void(0);" class="btn black-btn text-uppercase">Submit</a>
+                </div>
+            </form>
+        </div>
+        <div class="tab-content mt-4" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="messages_content" role="tabpanel" aria-labelledby="messages_content">
+                <div class="message-wrapper-block">
+                    <div class="message mb-5">
+                        <div class="message-block-left">
+                            <div class="message-user-img">
+                                <img src="images/car-1.png" alt="user" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="message-block-right">
+                            <div class="message-header">
+                                <span class="user-name">Jdaniels123</span> <span class="msg-date">12/12/2021</span> <span class="msg-time">10:23an</span>
+                            </div>
+                            <div class="message-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                                <p>
+                                    Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                   
+                    <div class="message mb-5">
+                        <div class="message-block-left">
+                            <div class="message-user-img">
+                                <img src="images/car-1.png" alt="user" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="message-block-right">
+                            <div class="message-header">
+                                <span class="user-name">Jdaniels123</span> <span class="msg-date">12/12/2021</span> <span class="msg-time">10:23an</span>
+                            </div>
+                            <div class="message-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                                <p>
+                                    Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-read-more">
+                        <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show" id="notification_content" role="tabpanel" aria-labelledby="notification_content">
+                <div class="message-wrapper-block">
+                    <div class="message mb-5">
+                        <div class="message-block-left">
+                            <div class="message-user-img">
+                                <img src="images/car-1.png" alt="user" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="message-block-right">
+                            <div class="message-header">
+                                <span class="user-name">Jdaniels123</span> <span class="msg-date">12/12/2021</span> <span class="msg-time">10:23an</span>
+                            </div>
+                            <div class="message-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                                <p>
+                                    Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                   
+                    <div class="message mb-5">
+                        <div class="message-block-left">
+                            <div class="message-user-img">
+                                <img src="images/car-1.png" alt="user" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="message-block-right">
+                            <div class="message-header">
+                                <span class="user-name">Jdaniels123</span> <span class="msg-date">12/12/2021</span> <span class="msg-time">10:23an</span>
+                            </div>
+                            <div class="message-body my-3">
+                                <p>
+                                    Congratulations to the Buyer and Seller. This is a solid result for both parities when factoring in the cost to address common issues such as the timing chain, tensioner, etc.
+                                </p>
+                                <p>
+                                    Cannaught Green, IMHO, is the single best color ever put on a MINI, second only to Royal Grey Metallic. As others have said, it’s a special MINI in many ways from the paint to the build process and the man it’s dedicated to. Enjoy!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-read-more">
+                        <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- message end -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between footer-upper py-5">
+                <div class="logo align-self-center">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="clasiq" class="img-fluid"> 
+                    </a>
+                </div>
+                <div class="footer-menu align-self-center">
+                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                        <li><a href="index.html" class="text-black p-2 hover-theme">Home</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">About Us</a></li>
+                        <li><a href="contact-us.html" class="text-black p-2 hover-theme">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Terms & Condations</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Privacy Policy</a></li>
+                        <li><a href="faq.html" class="text-black p-2 hover-theme">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact align-self-center">
+                    <a href="" class="text-black hover-theme">(888) 469-1435</a>
+                </div>
+            </div>
+            <div class="footer-down d-flex flex-wrap justify-content-between mb-5">
+                <div class="align-self-center">© CLASIQ 2021</div>
+                <div class="align-self-center text-center">
+                    <h4 class="heading-3 text-uppercase">Join the community</h4>
+                    <a href="javascript:void(0);" class="text-black mt-1 hover-theme">Facebook</a>
+                </div>
+                <div class="align-self-center">MADE BY ORIGINAL PEOPLE </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- thankyou popup -->
+    <div class="popup-modal" id="thankyou_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="small-modal-content">
+                <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                   <div class="popup-body p-4">
+                        <div class="text-center">
+                            <img src="images/car.png" alt=""> <br>
+                            <p class="text-black my-3">Our team will be reviewing your vehicle details 
+                                and will be reaching out soon!</p>
+                            <a href="index.html" class="btn theme-btn">Home</a>
+                        </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- excited popup -->
+    <div class="popup-modal" id="excited_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="small-modal-content">
+                <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                   <div class="popup-body p-4">
+                        <div class="text-center">
+                            <img src="images/car-check.png" alt=""> <br><br>
+                            <h3 class="heading-3">Were so excited to list 
+                                your car!</h3>
+                            <p class="text-black my-3">Our scheduling team will be reaching out shortly 
+                                to set up your inspection and photoshoot!</p>
+                            <a href="index.html" class="btn theme-btn">Home</a>
+                        </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- sold popup -->
+    <div class="popup-modal" id="sold_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="small-modal-content">
+                <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                   <div class="popup-body p-4">
+                        <div class="text-center">
+                            <img src="images/sell-icon-3.png" alt=""> <br><br>
+                            <h3 class="heading-3">Car Sold!</h3>
+                            <p class="text-black my-3">Lorem ipsum dolor sit amet, consectetur 
+                                adipiscing elit.</p>
+                            <a href="javascript:void(0);" class="btn theme-btn">Make Payment</a>
+                        </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- terms popup -->
+    <div class="popup-modal" id="terms_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <div class="d-flex align-items-center justify-content-center">
+               <div class="container bg-white rounded-3">
+                <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                   <div class="popup-body p-4">
+                        <div class="text-center">
+                            <h3 class="heading-3 mb-4">Terms & Conditions</h3>
+                            <div class="text-start">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate laudantium vitae consectetur facere non magnam minima esse facilis, necessitatibus, maxime id labore? Deserunt iure quod itaque dolorum! Nulla, neque?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nobis minus eligendi! Ab perspiciatis amet dolorum eius repellendus explicabo ea consequuntur! Iste, tenetur animi amet dicta ea nihil alias a!</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quis et, officiis expedita explicabo rem ipsam nihil fuga dignissimos autem molestiae, quod dolores nesciunt ducimus aliquam accusamus consequatur nostrum sapiente.</p>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- clasiq scripts -->
+    <script src="js/jquery-3.5.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/developer.js"></script> 
+</body>
+</html>

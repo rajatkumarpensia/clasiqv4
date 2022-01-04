@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasiq : Home Page</title>
+    <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
+    <!-- clasiq style sheets -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/developer.css">
+</head>
+<body>
+    <!-- fire -->
+    <div class="pyro">
+        <div class="before"></div>
+        <div class="after"></div>
+      </div>
+      <!-- loader -->
+      <div class="loader-overlay">
+          <div class="loader"></div>
+      </div>
+    <!-- header start -->
+    <header class="header py-4 bg-gray">
+        <div class="container position-relative">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Clasiq" class="img-fluid logo-image"></a>
+                </div>
+                <div class="menu">
+                    <span class="close-menu only-mobile"></span>
+                    <ul class="menu-wrapper list-unstyled mb-0">
+                        <li class="menu-item level-1 position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">View Live Auction</a>
+                            <ul class="level-2 list-unstyled position-absolute">
+                                <li class="d-block"><a href="live-auctions.html" class="menu-link text-uppercase">Live auctions</a></li>
+                                <li class="d-block"><a href="completed-auctions.html" class="menu-link text-uppercase">Completed auctions</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">How it work</a></li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Value your car</a></li>
+                        <li class="menu-item position-relative"><a href="clasiq-content.html" class="menu-link text-uppercase">Clasiq content</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="login_popup">Login</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="signup_popup">Sign Up</a></li>
+                    </ul> 
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <div class="search-wrapper mr-4">
+                        <div class="search position-relative form-control">
+                            <i class="fas fa-search"></i>
+                            <div class="mobile-search-input">
+                               <input type="text" class="header-search" placeholder="Search for ...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login-signup">
+                        <a href="javascript:void(0);" class="login-signup-btn text-uppercase"><span class="open-popup-modal" data-target="signup_popup">Sign up</span> / <span class="open-popup-modal" data-target="login_popup">Log in</span></a>
+                    </div>
+                    <div class="toggle-menu ml-4">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="contact-clasiq bg-theme text-center text-black p-2">
+        For help call clasiq at <a href="tel:8884691335" class="text-black">(888) 469 1335</a>
+    </div>
+    <!-- header end -->
+    <!-- main banner 2 start -->
+    <div class="main-banner-2 position-relative">
+        <img class="img-fluid" src="images/main-banner-2.jpg" alt="">
+        <div class="main-bannr-2-text">
+            <div class="container">
+            <h2 class="text-black">The World’s Most Exclusive Community Auction for People Who Love Classic Cars.</h2>
+            <p class="text-black">Buy and sell classic cars with people just as obsessed with them as you are.</p>
+            </div>
+        </div>
+    </div>
+    <!-- main banner 2 end -->
+    <!-- banner start -->
+    <!-- <section class="banner-section right-banner homepage-main-banner bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ninja-order-2">
+                    <div class="main-banner-text banner-text">
+                        <p>List on Sunday, Sell On Monday</p>
+                        <h1 class="font-weight">An all-new, truly independent classic car auction experience</h1>
+                        <p>Built By The Community, For The Community</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative ninja-order-1">
+                    <img src="images/mob-banner-1.png" alt="banner-image" class="img-fluid mobile-image">
+                    <div class="play-btn">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- banner end -->
+    <!-- how it works start-->
+    <section class="how-it-work">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-lg-3 hiw">
+                    <div class="text-center align-items-center flex-wrap p-2">
+                        <div class="icon">
+                            <img src="images/clipboard.png" alt="icon" class="img-fluid">
+                        </div>
+                        <div class="icon-details">
+                            <p>Pre-Purchase Inspection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 hiw">
+                    <div class="text-center align-items-center flex-wrap p-2">
+                        <div class="icon">
+                            <img src="images/w-plus.png" alt="icon" class="img-fluid">
+                        </div>
+                        <div class="icon-details">
+                            <p>Vetted Community Members</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 hiw">
+                    <div class="text-center align-items-center flex-wrap p-2">
+                        <div class="icon">
+                            <img src="images/lock.png" alt="icon" class="img-fluid">
+                        </div>
+                        <div class="icon-details">
+                            <p>100% Safe and Secure</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 hiw">
+                    <div class="text-center align-items-center flex-wrap p-2">
+                        <div class="icon">
+                            <img src="images/lock.png" alt="icon" class="img-fluid">
+                        </div>
+                        <div class="icon-details">
+                            <p>Dedicated 24/7 Seller & Buyer Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- how it works end -->
+    <!-- Auction list start -->
+    <section class="auction-section py-5">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="heading-1 text-center">Hot Auction</h1>
+            </div>
+            <div class="mt-5">
+                
+                    <div class="home-auction-wrapper">
+                        <div class="home-page-auction m-2">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time ">
+                                        <span class="time-slider" id="time_slider" ></span>
+                                        <div class="d-flex position-relative px-4 py-3">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">End In</p>
+                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="home-page-auction m-2">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time ">
+                                        <span class="time-slider" id="time_slider" ></span>
+                                        <div class="d-flex position-relative px-4 py-3">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">End In</p>
+                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="home-page-auction m-2">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time ">
+                                        <span class="time-slider" id="time_slider" ></span>
+                                        <div class="d-flex position-relative px-4 py-3">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">End In</p>
+                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="home-page-auction m-2">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time ">
+                                        <span class="time-slider" id="time_slider" ></span>
+                                        <div class="d-flex position-relative px-4 py-3">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">End In</p>
+                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                    </div>   
+                        <div class="my-4 text-center">
+                            <a href="javascript:void(0)" class="btn theme-btn">View All Live Auctions</a>
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </section>
+    <!-- Auction list end -->
+    <!-- banner start -->
+    <section class="banner-section left-banner banner-2 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 position-relative">
+                    <img src="images/mob-banner-2.png" alt="banner-image" class="img-fluid mobile-image">
+                    <div class="play-btn">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-5">
+                    <div class="banner-text pl-5">
+                        <h1 class="font-weight">How Clasiq <br>Auctions Work</h1>
+                        <p>Clasiq was designed for on purpose:
+                            bring people who love classic cars 
+                            together. This platform alllows buyers and 
+                            sellers to easily find each other and make 
+                            a transaction 100% secrure and worry free. </p>
+                        <a href="javascript:void(0);" class="btn theme-btn text-uppercase mt-4">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+   
+    <!-- banner start -->
+    <section class="banner-section right-banner banner-3 bg-white Sell-a-car-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pl-5">
+                    <div class="banner-text pl-5">
+                        <h1 class="font-weight mt-5">Selling A Car?</h1>
+                        <p>Use our AI-Driven quoting tool to get an
+                            estimate of what your car is worth in 
+                            minutes. Listing your car for sale only takes 
+                            a few minutes and <a href="" class="text-theme hover-theme">we take care of the details</a> </p>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase mt-4">learn more</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 position-relative py-5">
+                    <img src="images/mob-guide-detail-banner.png" alt="banner-image" class="img-fluid mobile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+    <!-- value your car start -->
+    <section class="car-value">
+        <div class="container">
+            <div class="my-5 ">
+             <h2 class="heading-2 text-uppercase  text-center mb-5">Car People Love Clasiq</h2>
+             <div class="love-clasiq my-4">
+                 <div class="card m-2 border-0">
+                     <div class="card-img">
+                         <img class="w-100" src="images/love-1.jpg" alt="">
+                     </div>
+                     <div class="card-body">
+                        <p>What can I say, totally impressed with your company and the people that work for it! From my first conversation to my last with the awesome people that bought my ranchero. Thank you and I look forward to working with you all again</p>
+                     </div>
+                 </div>
+                 <div class="card m-2 border-0">
+                    <div class="card-img">
+                        <img class="w-100" src="images/love-2.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                       <p>It was great! Everyone I spoke to at your company was extremely helpful and professional. Appreciated the follow up phone calls! Everything went very smoothly. Thank Y’all so much ! Dan I’ll be living for an older pickup on your site in the near future</p>
+                    </div>
+                </div>
+                <div class="card m-2 border-0">
+                    <div class="card-img">
+                        <img class="w-100" src="images/love-3.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                       <p>Zack, I just want to let you know that it was a real pleasure doing business with you and Clasiq. Everyone I spoke with at Clasiq were so professional and helpful. 
+ <br>
+                        Thank you so very much!
+                        </p>
+                    </div>
+                </div>
+                <div class="card m-2 border-0">
+                    <div class="card-img">
+                        <img class="w-100" src="images/love-3.jpeg" alt="">
+                    </div>
+                    <div class="card-body">
+                       <p>Zack, I just want to let you know that it was a real pleasure doing business with you and Clasiq. Everyone I spoke with at Clasiq were so professional and helpful. 
+ <br>
+                        Thank you so very much!
+                        </p>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <!-- value your car end -->
+    <!-- clasiq content start -->
+    <section class="clasiq-contents banner-section left-banner banner-bg-gray py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="heading-2 text-black text-uppercase">Clasiq stories</h2>
+                    <div class="clasiq-content-card">
+                        <a href="stories.html" class="position-relative">
+                            <img class="img-fluid" src="images/clasiq-stories.png" alt="clasiq content" />
+                            <div class="card-content">
+                                <p class="text-white">3 seasons worth of incredible cars and unforgettable stories.</p>
+                                <span  class="btn white-btn text-uppercase mt-3">learn more</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="heading-2 text-black text-uppercase">How-to guides</h2>
+                    <div class="clasiq-content-card">
+                        <a href="guides.html" class="position-relative">
+                            <img class="img-fluid" src="images/clasiq-guides.png" alt="clasiq content" />
+                            <div class="card-content">
+                                <p class="text-white">From the smartest way to photograph your car to the best way to value it.</p>
+                                <span  class="btn white-btn text-uppercase mt-3">learn more</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="heading-2 text-black text-uppercase">Articles</h2>
+                    <div class="clasiq-content-card">
+                        <a href="articles.html" class="position-relative">
+                            <img class="img-fluid" src="images/clasiq-articals.png" alt="clasiq content" />
+                            <div class="card-content">
+                                
+                                <p class="text-white">The latest and greatest news from the world of classic cars.</p>
+                                <span  class="btn white-btn text-uppercase mt-3">learn more</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clasiq content end -->
+    <!-- radio -->
+    <section class="listen-clasiq bg-yellow py-3">
+        <div class="container">
+            <div class="text-center letstalk-wrap">
+                <div class="d-inline-block p-2">
+                    <h3 class="text-uppercase mb-0">listen to clasiq weekly on </h3>
+                </div>
+                <div class="d-inline-block p-2">
+                    <a href="" >
+                        <img class="letstalk" src="images/letstalk.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- radio -->
+    <!-- footer start -->
+    <footer class="bg-gray footer">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between footer-upper py-5">
+                <div class="logo align-self-center">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="clasiq" class="img-fluid"> 
+                    </a>
+                </div>
+                <div class="footer-menu align-self-center">
+                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                        <li><a href="index.html" class="text-black p-2 hover-theme">Home</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">About Us</a></li>
+                        <li><a href="contact-us.html" class="text-black p-2 hover-theme">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Terms & Condations</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Privacy Policy</a></li>
+                        <li><a href="faq.html" class="text-black p-2 hover-theme">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact align-self-center">
+                    <a href="" class="text-black hover-theme">(888) 469-1435</a>
+                </div>
+            </div>
+            <div class="footer-down d-flex flex-wrap justify-content-between pb-4">
+                <div class="align-self-center">© CLASIQ 2021</div>
+                <div class="align-self-center text-center">
+                    <h4 class="heading-3 text-uppercase">Join the community</h4>
+                    <a href="javascript:void(0);" class="text-black mt-1 hover-theme">Facebook</a>
+                </div>
+                <div class="align-self-center">MADE BY ORIGINAL PEOPLE </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- login-modal -->
+    <div class="popup-modal" id="login_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="heading-1 text-uppercase text-white">
+                            Create a new account
+                        </h2>
+                        <a href="javascript:void(0);" class="btn white-btn text-uppercase mt-3 open-popup-modal" data-target="signup_popup">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form-wrap bg-white">
+                        <form action="">
+                            <h4 class="heading-3 mb-5">Sign In</h4>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="mb-4">
+                                <a href="javascript:void(0);" class="text-black font-bold forgot-password hover-theme open-popup-modal" data-target="forgot_popup">Forgot our password?</a>
+                            </div>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Submit</a>
+                            <span class="only-mobile mt-3 open-popup-modal" data-target="signup_popup">Create a new account. <span class="text-theme">SIGN UP</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- forgot password popup -->
+        <div class="popup-modal" id="forgot_popup">
+            <span class="close-popup"></span>
+            <div class="popup-content">
+                
+                <div class="d-flex align-items-center justify-content-center">
+                   <div class="small-modal-content">
+                    <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+                       <div class="popup-header p-3 text-center">
+                        <h4 class="heading-2">Forgot Password</h4>
+                       </div>
+                       <div class="popup-body px-4 py-3">
+                        <div class="form-floating outline-lable mb-4">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Reply">
+                            <label for="floatingInput">Enter mail</label>
+                        </div>
+                         <div class="text-end">
+                             <a href="" class="btn theme-btn">Submit</a>
+                         </div>  
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    <!-- signup modal -->
+    <div class="popup-modal" id="signup_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="heading-1 text-uppercase text-white">
+                            Already have an account?
+                        </h2>
+                        <a href="javascript:void(0);" class="btn white-btn text-uppercase mt-3 open-popup-modal" data-target="login_popup">Sign In</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form-wrap bg-white">
+                        <form action="">
+                            <h4 class="heading-3 mb-5">Sign Up</h4>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+                                <label for="floatingInput">Username</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Confirm Password</label>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Policy">
+                                    <label class="form-check-label" for="Policy">
+                                        I accept the Terms & Conditions and Privacy Policy.
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Subscribe">
+                                    <label class="form-check-label" for="Subscribe">
+                                        Subscribe to the Clasiq weekly email
+                                    </label>
+                                  </div>
+                            </div>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Sign Up</a>
+                            <span class="only-mobile mt-3 open-popup-modal" data-target="login_popup">Already have a account? <span class="text-theme">SIGN IN</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- clasiq scripts -->
+    <script src="js/jquery-3.5.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/developer.js"></script>
+</body>
+</html>

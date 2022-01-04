@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasiq : Home Page</title>
+    <link rel="icon" href="images/favicon.png" sizes="32x32" type="image/png">
+    <!-- clasiq style sheets -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/developer.css">
+</head>
+<body class="half-gray">
+    <!-- header start -->
+    <header class="header py-4 bg-gray">
+        <div class="container position-relative">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Clasiq" class="img-fluid logo-image"></a>
+                </div>
+                <div class="menu">
+                    <span class="close-menu only-mobile"></span>
+                    <ul class="menu-wrapper list-unstyled mb-0">
+                        <li class="menu-item level-1 position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">View Live Auction</a>
+                            <ul class="level-2 list-unstyled position-absolute">
+                                <li class="d-block"><a href="live-auctions.html" class="menu-link text-uppercase">Live auctions</a></li>
+                                <li class="d-block"><a href="completed-auctions.html" class="menu-link text-uppercase">Completed auctions</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">How it work</a></li>
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Value your car</a></li>
+                        <li class="menu-item position-relative"><a href="clasiq-content.html" class="menu-link text-uppercase">Clasiq content</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="login_popup">Login</a></li>
+                        <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="signup_popup">Sign Up</a></li>
+                    </ul> 
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <div class="search-wrapper mr-4">
+                        <div class="search position-relative form-control">
+                            <i class="fas fa-search"></i>
+                            <input type="text" class="header-search" placeholder="Search for ...">
+                        </div>
+                    </div>
+                    <div class="login-signup">
+                        <a href="javascript:void(0);" class="login-signup-btn text-uppercase"><span class="open-popup-modal" data-target="signup_popup">Sign up</span> / <span class="open-popup-modal" data-target="login_popup">Log in</span></a>
+                    </div>
+                    <div class="toggle-menu ml-4">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- banner start -->
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 my-5">
+                    <div class="py-4 text-center">
+                        <p>List on Sunday, Sell On Monday</p>
+                        <h1 class="heading-1 mb-4">ALL COMPLETED AUCTIONS</h1>
+                        <a href="live-auctions.html" class="btn theme-btn">View All LIVE Auctions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+    <!-- Auction list start -->
+    <section class="auction-section py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between section-header align-items-center flex-wrap">
+                <h1 class="heading-1 mb-5">Completed Auctions</h1> 
+                
+            </div>
+            
+                
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time px-4 py-3">
+                                        <div class="d-flex position-relative">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Sold In</p>
+                                                <p class="auction-time text-theme mb-0"> $25,000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-2.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time px-4 py-3">
+                                        <div class="d-flex position-relative">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Sold In</p>
+                                                <p class="auction-time text-theme mb-0"> $25,000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-3.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time px-4 py-3">
+                                        <div class="d-flex position-relative">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Sold In</p>
+                                                <p class="auction-time text-theme mb-0"> $25,000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-4.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time px-4 py-3">
+                                        <div class="d-flex position-relative">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Sold In</p>
+                                                <p class="auction-time text-theme mb-0"> $25,000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-5.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time px-4 py-3">
+                                        <div class="d-flex position-relative">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Sold In</p>
+                                                <p class="auction-time text-theme mb-0"> $25,000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="auction-detail.html" class="car-card mb-4">
+                                <div class="car-image-wrap position-relative">
+                                    <img class="img-fluid car-img" src="images/auction-car-6.png" alt="car image">
+                                    <span class="reserve-option position-absolute">Reserve</span>
+                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                </div>
+                                <div class="car-details px-4">
+                                    <div class="auction-bid-time px-4 py-3">
+                                        <div class="d-flex position-relative">
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Current Bid</p>
+                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                            </div>
+                                            <div class="flex-1">
+                                                <p class="mb-1 text-black">Sold In</p>
+                                                <p class="auction-time text-theme mb-0"> $25,000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="auction-car-details px-4 pb-4">
+                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                    </div>
+                                </div> 
+                            </a>
+                        </div>
+                        <div class="col-12 my-4 text-center">
+                            <a href="javascript:void(0)" class="btn theme-btn">View All Completed Auctions</a>
+                        </div>
+                    </div>
+                
+                
+           
+        </div>
+    </section>
+    <!-- Auction list end -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-between footer-upper py-5">
+                <div class="logo align-self-center">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="clasiq" class="img-fluid"> 
+                    </a>
+                </div>
+                <div class="footer-menu align-self-center">
+                    <ul class="list-unstyled d-flex flex-wrap mb-0">
+                        <li><a href="index.html" class="text-black p-2 hover-theme">Home</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">About Us</a></li>
+                        <li><a href="contact-us.html" class="text-black p-2 hover-theme">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Terms & Condations</a></li>
+                        <li><a href="javascript:void(0);" class="text-black p-2 hover-theme">Privacy Policy</a></li>
+                        <li><a href="faq.html" class="text-black p-2 hover-theme">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact align-self-center">
+                    <a href="" class="text-black hover-theme">(888) 469-1435</a>
+                </div>
+            </div>
+            <div class="footer-down d-flex flex-wrap justify-content-between mb-5">
+                <div class="align-self-center">© CLASIQ 2021</div>
+                <div class="align-self-center text-center">
+                    <h4 class="heading-3 text-uppercase">Join the community</h4>
+                    <a href="javascript:void(0);" class="text-black mt-1 hover-theme">Facebook</a>
+                </div>
+                <div class="align-self-center">MADE BY ORIGINAL PEOPLE </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+<!-- login-modal -->
+    <div class="popup-modal" id="login_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="heading-1 text-uppercase text-white">
+                            Create a new account
+                        </h2>
+                        <a href="javascript:void(0);" class="btn white-btn text-uppercase mt-3 open-popup-modal" data-target="signup_popup">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form-wrap bg-white">
+                        <form action="">
+                            <h4 class="heading-3 mb-5">Sign In</h4>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="mb-4">
+                                <a href="javascript:void(0);" class="text-black font-bold forgot-password hover-theme">Forgot our password?</a>
+                            </div>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Submit</a>
+                            <span class="only-mobile mt-3 open-popup-modal" data-target="signup_popup">Create a new account. <span class="text-theme">SIGN UP</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signup modal -->
+    <div class="popup-modal" id="signup_popup">
+        <span class="close-popup"></span>
+        <div class="popup-content">
+            <a href="javascript:void(0);" class="close-popup close-btn text-white"><i class="fas fa-times mr-2"></i> Close</a>
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div>
+                        <h2 class="heading-1 text-uppercase text-white">
+                            Already have an account?
+                        </h2>
+                        <a href="javascript:void(0);" class="btn white-btn text-uppercase mt-3 open-popup-modal" data-target="login_popup">Sign In</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="form-wrap bg-white">
+                        <form action="">
+                            <h4 class="heading-3 mb-5">Sign Up</h4>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Username">
+                                <label for="floatingInput">Username</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="form-floating outline-lable mb-4">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Confirm Password</label>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Policy">
+                                    <label class="form-check-label" for="Policy">
+                                        I accept the Terms & Conditions and Privacy Policy.
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Subscribe">
+                                    <label class="form-check-label" for="Subscribe">
+                                        Subscribe to the Clasiq weekly email
+                                    </label>
+                                  </div>
+                            </div>
+                            <a href="javascript:void(0);" class="btn theme-btn text-uppercase">Sign Up</a>
+                            <span class="only-mobile mt-3 open-popup-modal" data-target="login_popup">Already have a account? <span class="text-theme">SIGN IN</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clasiq scripts -->
+    <script src="js/jquery-3.5.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/developer.js"></script>
+</body>
+</html>
