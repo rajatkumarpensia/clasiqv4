@@ -3155,6 +3155,33 @@ img.emoji {
     font-size: 2rem;
     z-index: 99;
 }
+.support-sticky{
+    position: fixed;
+    top:50%;
+    transform: translateY(-50%);
+    right:-147px;
+    z-index: 9999;
+    transition: all 0.3s ease;
+}
+.support-sticky:hover{
+    right: 0;
+}
+.support-sticky a{
+    display: flex;
+    color: #fff;
+    background-color: rgba(250, 160, 1, 0.8);
+    border-radius: 10px 0 0 10px;
+    align-items: center;
+    padding-right: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #999;
+}
+.support-sticky a span{
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgba(250, 160, 1, 1);
+    margin-right: 15px;
+}
 @media(max-width:991px){
     .main-bannr-2-text h2{
         font-size: 2rem;

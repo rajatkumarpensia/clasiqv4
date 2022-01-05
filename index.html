@@ -23,6 +23,11 @@
       <div class="loader-overlay">
           <div class="loader"></div>
       </div>
+
+      <!-- support call -->
+      <div class="support-sticky">
+        <a href="tel:8884691335" class="text-black"><span class=""> <i class="fas fa-phone-alt"></i> </span> (888) 469 1335</a>
+      </div>
     <!-- header start -->
     <header class="header py-4 bg-gray">
         <div class="container position-relative">
@@ -33,14 +38,14 @@
                 <div class="menu">
                     <span class="close-menu only-mobile"></span>
                     <ul class="menu-wrapper list-unstyled mb-0">
-                        <li class="menu-item level-1 position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">View Live Auction</a>
+                        <li class="menu-item level-1 position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Live Auctions</a>
                             <ul class="level-2 list-unstyled position-absolute">
                                 <li class="d-block"><a href="live-auctions.html" class="menu-link text-uppercase">Live auctions</a></li>
                                 <li class="d-block"><a href="completed-auctions.html" class="menu-link text-uppercase">Completed auctions</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">How it work</a></li>
-                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Value your car</a></li>
+                        <!-- <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">How it work</a></li> -->
+                        <li class="menu-item position-relative"><a href="javascript:void(0);" class="menu-link text-uppercase">Sell A car</a></li>
                         <li class="menu-item position-relative"><a href="clasiq-content.html" class="menu-link text-uppercase">Clasiq content</a></li>
                         <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="login_popup">Login</a></li>
                         <li class="menu-item position-relative only-mobile"><a href="javascript:void(0);" class="menu-link text-uppercase open-popup-modal" data-target="signup_popup">Sign Up</a></li>
@@ -66,9 +71,9 @@
             </div>
         </div>
     </header>
-    <div class="contact-clasiq bg-theme text-center text-black p-2">
+    <!-- <div class="contact-clasiq bg-theme text-center text-black p-2">
         For help call clasiq at <a href="tel:8884691335" class="text-black">(888) 469 1335</a>
-    </div>
+    </div> -->
     <!-- header end -->
     <!-- main banner 2 start -->
     <div class="main-banner-2 position-relative">
@@ -139,7 +144,7 @@
                 <div class="col-lg-3 hiw">
                     <div class="text-center align-items-center flex-wrap p-2">
                         <div class="icon">
-                            <img src="images/lock.png" alt="icon" class="img-fluid">
+                            <img src="images/customer-service.png" alt="icon" class="img-fluid">
                         </div>
                         <div class="icon-details">
                             <p>Dedicated 24/7 Seller & Buyer Support</p>
@@ -158,123 +163,101 @@
             </div>
             <div class="mt-5">
                 
-                    <div class="home-auction-wrapper">
-                        <div class="home-page-auction m-2">
-                            <a href="auction-detail.html" class="car-card mb-4">
-                                <div class="car-image-wrap position-relative">
-                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
-                                    <span class="reserve-option position-absolute">Reserve</span>
-                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
-                                </div>
-                                <div class="car-details px-4">
-                                    <div class="auction-bid-time ">
-                                        <span class="time-slider" id="time_slider" ></span>
-                                        <div class="d-flex position-relative px-4 py-3">
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">Current Bid</p>
-                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">End In</p>
-                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
-                                            </div>
-                                        </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="home-page-auction m-2">
+                                <a href="auction-detail.html" class="car-card mb-4">
+                                    <div class="car-image-wrap position-relative">
+                                        <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                        <span class="reserve-option position-absolute">Reserve</span>
+                                        <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
                                     </div>
-                                    <div class="auction-car-details px-4 pb-4">
-                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
-                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
-                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
-                                    </div>
-                                </div> 
-                            </a>
-                        </div>
-                        <div class="home-page-auction m-2">
-                            <a href="auction-detail.html" class="car-card mb-4">
-                                <div class="car-image-wrap position-relative">
-                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
-                                    <span class="reserve-option position-absolute">Reserve</span>
-                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
-                                </div>
-                                <div class="car-details px-4">
-                                    <div class="auction-bid-time ">
-                                        <span class="time-slider" id="time_slider" ></span>
-                                        <div class="d-flex position-relative px-4 py-3">
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">Current Bid</p>
-                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">End In</p>
-                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                                    <div class="car-details px-4">
+                                        <div class="auction-bid-time ">
+                                            <span class="time-slider" id="time_slider" ></span>
+                                            <div class="d-flex position-relative px-4 py-3">
+                                                <div class="flex-1">
+                                                    <p class="mb-1 text-black">Current Bid</p>
+                                                    <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                                </div>
+                                                <div class="flex-1">
+                                                    <p class="mb-1 text-black">End In</p>
+                                                    <p class="auction-time text-theme mb-0"> <span class="time-left"></span> Second</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="auction-car-details px-4 pb-4">
-                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
-                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
-                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
-                                    </div>
-                                </div> 
-                            </a>
+                                        <div class="auction-car-details px-4 pb-4">
+                                            <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                            <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                            <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                        </div>
+                                    </div> 
+                                </a>
+                            </div>
                         </div>
-                        <div class="home-page-auction m-2">
-                            <a href="auction-detail.html" class="car-card mb-4">
-                                <div class="car-image-wrap position-relative">
-                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
-                                    <span class="reserve-option position-absolute">Reserve</span>
-                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
-                                </div>
-                                <div class="car-details px-4">
-                                    <div class="auction-bid-time ">
-                                        <span class="time-slider" id="time_slider" ></span>
-                                        <div class="d-flex position-relative px-4 py-3">
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">Current Bid</p>
-                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">End In</p>
-                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                        <div class="col-md-4">
+                            <div class="home-page-auction m-2">
+                                <a href="auction-detail.html" class="car-card mb-4">
+                                    <div class="car-image-wrap position-relative">
+                                        <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                        <span class="reserve-option position-absolute">Reserve</span>
+                                        <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                    </div>
+                                    <div class="car-details px-4">
+                                        <div class="auction-bid-time ">
+                                            <span class="time-slider" id="time_slider" ></span>
+                                            <div class="d-flex position-relative px-4 py-3">
+                                                <div class="flex-1">
+                                                    <p class="mb-1 text-black">Current Bid</p>
+                                                    <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                                </div>
+                                                <div class="flex-1">
+                                                    <p class="mb-1 text-black">End In</p>
+                                                    <p class="auction-time text-theme mb-0"> <span class="time-left"></span> Second</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="auction-car-details px-4 pb-4">
-                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
-                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
-                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
-                                    </div>
-                                </div> 
-                            </a>
+                                        <div class="auction-car-details px-4 pb-4">
+                                            <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                            <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                            <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                        </div>
+                                    </div> 
+                                </a>
+                            </div>
                         </div>
-                        <div class="home-page-auction m-2">
-                            <a href="auction-detail.html" class="car-card mb-4">
-                                <div class="car-image-wrap position-relative">
-                                    <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
-                                    <span class="reserve-option position-absolute">Reserve</span>
-                                    <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
-                                </div>
-                                <div class="car-details px-4">
-                                    <div class="auction-bid-time ">
-                                        <span class="time-slider" id="time_slider" ></span>
-                                        <div class="d-flex position-relative px-4 py-3">
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">Current Bid</p>
-                                                <p class="bid-amount text-theme mb-0">$24,0000</p>
-                                            </div>
-                                            <div class="flex-1">
-                                                <p class="mb-1 text-black">End In</p>
-                                                <p class="auction-time text-theme mb-0"> <i class="far fa-clock"></i> <span class="time-left"></span> Second</p>
+                        <div class="col-md-4">
+                            <div class="home-page-auction m-2">
+                                <a href="auction-detail.html" class="car-card mb-4">
+                                    <div class="car-image-wrap position-relative">
+                                        <img class="img-fluid car-img" src="images/auction-car-1.png" alt="car image">
+                                        <span class="reserve-option position-absolute">Reserve</span>
+                                        <span class="wishlist-option position-absolute"><i class="far fa-heart"></i></span>
+                                    </div>
+                                    <div class="car-details px-4">
+                                        <div class="auction-bid-time ">
+                                            <span class="time-slider" id="time_slider" ></span>
+                                            <div class="d-flex position-relative px-4 py-3">
+                                                <div class="flex-1">
+                                                    <p class="mb-1 text-black">Current Bid</p>
+                                                    <p class="bid-amount text-theme mb-0">$24,0000</p>
+                                                </div>
+                                                <div class="flex-1">
+                                                    <p class="mb-1 text-black">End In</p>
+                                                    <p class="auction-time text-theme mb-0"> <span class="time-left"></span> Second</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="auction-car-details px-4 pb-4">
-                                        <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
-                                        <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
-                                        <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
-                                    </div>
-                                </div> 
-                            </a>
+                                        <div class="auction-car-details px-4 pb-4">
+                                            <h4 class="heading-2 text-black">1970 Pontiac Trans AM</h4>
+                                            <p class="text-black">Rebuilt 400ci engine with a 5-speed manual</p>
+                                            <div class="address"><i class="fas fa-map-marker-alt"></i> <span class="text-black">Los Angeles, Ca. 91302</span></div>
+                                        </div>
+                                    </div> 
+                                </a>
+                            </div>
                         </div>
+                        
                     </div>   
                         <div class="my-4 text-center">
                             <a href="javascript:void(0)" class="btn theme-btn">View All Live Auctions</a>

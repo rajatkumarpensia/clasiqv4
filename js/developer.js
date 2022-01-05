@@ -73,7 +73,7 @@ $(document).ready(function(){
           
         ]
       });
-      $('.home-auction-wrapper,.love-clasiq').slick({
+      $('.love-clasiq').slick({
         dots: false,
         infinite: true,
         speed: 300,
