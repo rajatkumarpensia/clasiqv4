@@ -496,9 +496,26 @@ input:-webkit-autofill:active{
 }
 .hiw .icon {
   width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(250, 160, 1,1);
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-light-theme{
+    background-color: rgba(250, 160, 1,0.1);
+}
+.hiw .icon i{
+    font-size: 2rem;
 }
 .hiw .icon-details {
   width: calc(100% - 90px);
+}
+.hiw .icon-details p{
+    margin-bottom: 0;
 }
 .nav-pills .nav-link {
   font-weight: 600;
